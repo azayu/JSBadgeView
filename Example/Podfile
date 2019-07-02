@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '7.0'
+
+target 'JSBadgeView' do
+    pod 'JSBadgeView', :path => '../'
+
+    target 'Tests' do
+        pod 'Specta'
+        pod 'Expecta'
+    end
+end
